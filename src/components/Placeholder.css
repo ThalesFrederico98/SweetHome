@@ -1,0 +1,27 @@
+.placeholder-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px auto 0 auto;
+}
+
+.placeholder-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.placeholder-card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    display: flex;
+    margin: 10px auto 0 auto;
+}
+
+@media (max-width: 1051px) {
+    .placeholder-card {
+        margin: 10px auto 0 auto;
+        width: 300px;
+        width: 900px;
+    }
+}

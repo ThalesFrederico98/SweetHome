@@ -1,0 +1,136 @@
+.card-root {
+    transition: all 0.2s ease-in-out;
+}
+
+.card-root.card-loading {
+    opacity: 0;
+}
+
+.card-root.card-loaded {
+    opacity: 1;
+}
+
+.general-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card-container {
+    margin: 10px auto 0 auto;
+    width: 209px;
+    height: auto;
+}
+
+.favorite {
+    background-image: url('../../../media/web_heart_animation_outline.png');
+    background-position: left;
+    background-size: 2900%;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    z-index: 5;
+    right: 0%;
+    bottom: 75%;
+    opacity: 1;
+}
+
+.animate {
+    animation: heart-burst 0.9s steps(28) forwards;
+}
+
+@keyframes heart-burst {
+    0% {
+        background-position: left;
+        opacity: 0.5;
+    }
+
+    100% {
+        background-position: right;
+        opacity: 1;
+    }
+}
+
+.img-fluid {
+    margin: auto;
+    height: 200px;
+    width: 800px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.CardsSwiper {
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.CardsSwiper .swiper-pagination {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.CardsSwiper:hover .swiper-pagination {
+    opacity: 1;
+}
+
+.CardsSwiper .swiper-pagination-bullet {
+    background: rgb(6, 153, 6);
+}
+
+.CardsSwiper .swiper-pagination-bullet-active-prev,
+.CardsSwiper .swiper-pagination-bullet-active-prev-prev,
+.CardsSwiper .swiper-pagination-bullet-active-next,
+.CardsSwiper .swiper-pagination-bullet-active-next-next {
+    background: rgb(177, 177, 177);
+    opacity: 0.9;
+}
+
+.card-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-info p {
+    margin: 5px 0;
+}
+
+.star-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    max-width: 150px;
+    margin: auto;
+}
+
+.star-info p {
+    margin: 0;
+}
+
+@media (max-width: 1051px) {
+    .card-container {
+        margin: 10px auto 0 auto;
+        width: 900px;
+    }
+}

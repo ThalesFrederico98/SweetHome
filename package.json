@@ -1,0 +1,44 @@
+{
+  "name": "sweethome",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@daypicker/react": "^10.0.1",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
+    "bootstrap": "^5.3.8",
+    "install": "^0.13.0",
+    "jquery": "^4.0.0",
+    "npm": "^11.16.0",
+    "popper.js": "^1.16.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.30.3",
+    "react-select": "^5.10.2",
+    "sweetalert2": "^11.26.25",
+    "swiper": "^12.1.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^8.0.0-beta.13"
+  },
+  "overrides": {
+    "vite": "^8.0.0-beta.13"
+  }
+}

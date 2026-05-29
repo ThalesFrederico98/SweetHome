@@ -1,0 +1,145 @@
+.form-container {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    margin: 50px auto 100px auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f7f7f7;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.Title {
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-line;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 30px 0;
+}
+
+.Text1 {
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-line;
+    text-align: center;
+    text-decoration: none;
+}
+
+.select {
+    margin: 7px 5px 8px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.select-email {
+    margin: 7px 5px 15px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.checkboxes-container {
+    margin: 10px auto;
+    border: 1px solid black;
+    max-width: max-content;
+    justify-items: start;
+}
+
+.checkboxes {
+    transform: scale(1.5);
+}
+
+.checkboxLabel {
+    margin: auto 10px;
+}
+
+.textbox {
+    border: none;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.sendButton {
+    margin-top: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dateButton {
+    margin: 15px 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    margin-top: 0;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.calendar-container.visible {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 15px;
+    height: auto;
+}
+
+
+@media (max-width:768px) {
+    .form-container {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:576px) {
+    .form-container {
+        width: 300px;
+    }
+
+    .select-email {
+        width: 220px;
+    }
+
+    .dateButton {
+        width: 200px;
+    }
+
+    .calendar-container {
+        width: 280px;
+    }
+
+
+}

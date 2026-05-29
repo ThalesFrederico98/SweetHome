@@ -1,0 +1,23 @@
+.btn-especial {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid #ccc;
+    min-width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.btn-especial:hover {
+    background: #161616;
+    border: 1px solid #161616;
+    color: white;
+}
+
+.btn-especial.active {
+    padding: 10px 20px;
+    background: rgb(146, 213, 146);
+    border: 1px solid rgb(175, 175, 175);
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}

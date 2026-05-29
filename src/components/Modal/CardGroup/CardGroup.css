@@ -1,0 +1,33 @@
+.cardGroup {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.cardGroup i {
+    font-size: 2.5rem;
+}
+
+.cardGroup p {
+    max-width: 140px;
+    text-align: center;
+}
+
+.cardGroup:hover {
+    background: #161616;
+    border: 1px solid #161616;
+    color: white;
+}
+
+.cardGroup.active {
+    background: rgb(146, 213, 146);
+    border: 1px solid rgb(175, 175, 175);
+}

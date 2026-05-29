@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.rdp-root {
+    --rdp-day_button-border-radius: 5px;
+}
+
+
+@media(max-width:576px) {
+    .rdp-root {
+        --rdp-day-height: 20px;
+        --rdp-day_button-width: 28px;
+        --rdp-day_button-height: 28px;
+        --rdp-nav_button-width: 70px;
+        --rdp-day_button-border: 10px;
+    }
+}
