@@ -1,4 +1,4 @@
-# 🏠 SweetHome
+!()[https://github.com/ThalesFrederico98/SweetHome/favicon.png]
 
 Uma aplicação web moderna para explorar e filtrar imóveis, inspirada em plataformas como Airbnb. O projeto utiliza React com Vite para oferecer uma experiência rápida e responsiva.
 
