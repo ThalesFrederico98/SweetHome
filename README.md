@@ -13,6 +13,13 @@ SweetHome é uma plataforma de busca de imóveis que permite aos usuários:
 - Registrar-se para acessar funcionalidades adicionais
 - Interface amigável com suporte a Material Design Icons
 
+## Imagens
+
+<p align="center">
+  <img src="/src/media/First page.png" alt="First page">
+  <img src="/src/media/register.png" alt="register">
+</p>
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **React 19.2** - Biblioteca JavaScript para interfaces de usuário
