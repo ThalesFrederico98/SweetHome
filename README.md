@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[caminho-da-imagem.png](./favicon.png)" alt="Logo">
+  <img src="/favicon.png" alt="Logo">
 </p>
 
 Uma aplicação web moderna para explorar e filtrar imóveis, inspirada em plataformas como Airbnb. O projeto utiliza React com Vite para oferecer uma experiência rápida e responsiva.
