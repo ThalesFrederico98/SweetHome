@@ -23,8 +23,8 @@ SweetHome é uma plataforma de busca de imóveis que permite aos usuários:
 <hr>
 
 <p align="center">
-  <img src="/src/media/First page mobile.png" alt="First page" style="width:50%; height:50%;">
-  <img src="/src/media/Register mobile.png" alt="Register" style="width:50%; height:50%;>
+  <img src="/src/media/First page mobile.png" alt="First page mobile" style="width:50%; height:50%;">
+  <img src="/src/media/Register Mobile.png" alt="Register mobile" style="width:50%; height:50%;>
 </p>
 
 ## 🛠️ Tecnologias Utilizadas
@@ -48,7 +48,7 @@ SweetHome é uma plataforma de busca de imóveis que permite aos usuários:
 
 1. **Clone o repositório**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/ThalesFrederico98/SweetHome
    cd SweetHome
    ```
 
