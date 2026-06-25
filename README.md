@@ -84,7 +84,7 @@ src/
 ├── main.jsx                 # Ponto de entrada
 └── App.css                  # Estilos globais
 backend/
-└── dados.js                 # Dados ou configurações do backend
+└── dados.js                 # Dados para simular o backend do projeto
 ```
 
 ## 🎯 Funcionalidades Principais
